@@ -30,14 +30,15 @@ const Contact = () => {
                             <address>
                             Edwardsville, IL<br />
                             United States<br />
-                            <i className="fa fa-phone"></i>: +852 1234 5678<br />
-                            <i className="fa fa-envelope"></i>: <a href="mailto:mfrench@siue.edu">mfrench@siue.edu</a>
+                            {/**<i className="fa fa-phone"></i>: +852 1234 5678<br />**/}
+                            <i className="fa fa-envelope"></i>: <a href="mailto:mifrenc@siue.edu">mifrenc@siue.edu</a>
                             </address>
                     </div>
                     <div className="col-12 col-sm-6 offset-sm-1">
                         <h5>Our Social Media</h5>
                         <div className="col-12 col-sm-4 align-self-center">
                     <div className="text-center">
+                        <a className="btn btn-social-icon btn-instagram" href="https://github.com/SIUE-SPARC"><i className="fa fa-github"></i></a>
                         <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/siuesparc/"><i className="fa fa-instagram"></i></a>
                         <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/siuesparc"><i className="fa fa-facebook"></i></a>
                         <a className="btn btn-social-icon btn-twitter" href="https://twitter.com/SiueSparc"><i className="fa fa-twitter"></i></a>
@@ -48,19 +49,23 @@ const Contact = () => {
                     </div>
                     <div className="col-12 col-sm-11 offset-sm-1">
                         <div className="btn-group" role="group">
-                            <a role="button" className="btn btn-primary" href="tel:+85212345678"><i className="fa fa-phone"></i> Call</a>
+                            {/**<a role="button" className="btn btn-primary" href="tel:+85212345678"><i className="fa fa-phone"></i> Call</a>**/}
                             <a role="button" className="btn btn-success" href="mailto:mfrench@siue.edu"><i className="fa fa-envelope-o"></i> Email</a>
                         </div>
                     </div>
                 </div>
+                
                 <div className="row row-content">
+                    {/**
                     <div className="col-12">
                         <h3>Send us your Feedback</h3>
                     </div>
+                    **/}
                     <div className="col-12 col-md-9">
                         
                     </div>
                 </div>
+                
             </div>
   )
 }

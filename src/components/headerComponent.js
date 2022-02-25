@@ -14,7 +14,7 @@ const Header = () => {
         <Navbar dark expand="md">
           <div className="container">
               <NavbarToggler onClick={toggleNav} />
-              <NavbarBrand className="mr-auto"><img src={logo} width="auto" height="50" alt='SPARC' /></NavbarBrand>
+              <NavLink to='/home'><NavbarBrand className="mr-auto"><img src={logo} width="auto" height="50" alt='SPARC' /></NavbarBrand></NavLink>
             <Collapse isOpen={isNavOpen} navbar>
                 <Nav>
                 <NavItem>

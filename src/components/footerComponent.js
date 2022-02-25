@@ -17,20 +17,21 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="col-7 col-sm-5">
-                    <h5>Our Contacts</h5>
+                    <h5>Our Contact Info</h5>
                     <address>
-		              <i className="fa fa-phone fa-lg"></i>: +852 1234 5678<br />
+		              {/**<i className="fa fa-phone fa-lg"></i>: +852 1234 5678<br />**/}
 		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:mfrench@siue.edu">
                          mifrenc@siue.edu</a>
                     </address>
                 </div>
                 <div className="col-12 col-sm-4 align-self-center">
                     <div className="text-center">
+                        <a className="btn btn-social-icon btn-instagram" href="https://github.com/SIUE-SPARC"><i className="fa fa-github"></i></a>
                         <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/siuesparc/"><i className="fa fa-instagram"></i></a>
                         <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/siuesparc"><i className="fa fa-facebook"></i></a>
                         <a className="btn btn-social-icon btn-twitter" href="https://twitter.com/SiueSparc"><i className="fa fa-twitter"></i></a>
                         <a className="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCQRt1nBNU-BH2Qv5uIm6a6w"><i className="fa fa-youtube"></i></a>
-                        <a className="btn btn-social-icon" href="mailto:mfrench@siue.edu"><i className="fa fa-envelope-o"></i></a>
+                        <a className="btn btn-social-icon" href="mailto:mifrenc@siue.edu"><i className="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
             </div>
