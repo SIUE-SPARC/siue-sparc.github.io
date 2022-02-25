@@ -52,34 +52,54 @@ const Home = () => {
   return (
     <div>
       <Jumbotron>
-        <div className='container'>
-            <Carousel previous={previousButton} next={nextButton}
-                activeIndex={activeIndex}>
-                <CarouselIndicators items={items}
-                    activeIndex={activeIndex}
-                    onClickHandler={(newIndex) => {
-                        if (animating) return;
-                        setActiveIndex(newIndex);
-                    }} />
-                {carouselItemData}
-                <CarouselControl directionText="Prev"
-                    direction="prev" onClickHandler={previousButton} />
-                <CarouselControl directionText="Next"
-                    direction="next" onClickHandler={nextButton} />
-            </Carousel>
-        </div >
-        </Jumbotron>
         <div className="container">
+          <Carousel
+            previous={previousButton}
+            next={nextButton}
+            activeIndex={activeIndex}
+          >
+            <CarouselIndicators
+              items={items}
+              activeIndex={activeIndex}
+              onClickHandler={(newIndex) => {
+                if (animating) return;
+                setActiveIndex(newIndex);
+              }}
+            />
+            {carouselItemData}
+            <CarouselControl
+              directionText="Prev"
+              direction="prev"
+              onClickHandler={previousButton}
+            />
+            <CarouselControl
+              directionText="Next"
+              direction="next"
+              onClickHandler={nextButton}
+            />
+          </Carousel>
+        </div>
+      </Jumbotron>
+      <div className="container">
         <div className="row row-header">
-            <div className="col-12 col-sm-6">
-                <h1>SIUE Programming and Research Collaboration</h1>
-                <p>SPARC is an organization open to any students interested in computer science or modern day technologies. The purpose of the organization is to create leaders who have the skills, ability, and want to utilize technology to enact positive change within society. We also strive to demonstrate the importance of interdisciplinary collaboration between computer science and all other disciplines, while also building a community for students at SIUE. We provide a supportive organization where students can develop and grow academically, professionally, and personally.</p>
-            </div>
+          <div className="col-12 col-sm-6">
+            <h1>SIUE Programming and Research Collaboration</h1>
+            <p>
+              SPARC is an organization open to any students interested in
+              computer science or modern day technologies. The purpose of the
+              organization is to create leaders who have the skills, ability,
+              and want to utilize technology to enact positive change within
+              society. We also strive to demonstrate the importance of
+              interdisciplinary collaboration between computer science and all
+              other disciplines, while also building a community for students at
+              SIUE. We provide a supportive organization where students can
+              develop and grow academically, professionally, and personally.
+            </p>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-    
-  )
+  );
 }
 
 export default Home;
