@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { CarouselControl, Carousel, CarouselItem, CarouselIndicators, Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import logo from "../assets/images/logo.jpg";
+import logo from "../assets/images/logo.png";
 
 const Header = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -14,7 +14,7 @@ const Header = () => {
         <Navbar dark expand="md">
           <div className="container">
               <NavbarToggler onClick={toggleNav} />
-              <NavbarBrand className="mr-auto"><img src={logo} width="70" height="50" alt='SPARC' /></NavbarBrand>
+              <NavbarBrand className="mr-auto"><img src={logo} width="auto" height="50" alt='SPARC' /></NavbarBrand>
             <Collapse isOpen={isNavOpen} navbar>
                 <Nav>
                 <NavItem>
