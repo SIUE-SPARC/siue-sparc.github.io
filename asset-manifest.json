@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.51f6f8f0.css",
-    "main.js": "/static/js/main.34d94af5.js",
+    "main.js": "/static/js/main.da171669.js",
     "static/js/787.38667e43.chunk.js": "/static/js/787.38667e43.chunk.js",
     "static/media/workshop5.jpg": "/static/media/workshop5.5e3addca34eaf8d59eb9.jpg",
     "static/media/workshop1.jpg": "/static/media/workshop1.b6b7ba8cc5125e3f0254.jpg",
@@ -12,11 +12,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/index.html",
     "main.51f6f8f0.css.map": "/static/css/main.51f6f8f0.css.map",
-    "main.34d94af5.js.map": "/static/js/main.34d94af5.js.map",
+    "main.da171669.js.map": "/static/js/main.da171669.js.map",
     "787.38667e43.chunk.js.map": "/static/js/787.38667e43.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51f6f8f0.css",
-    "static/js/main.34d94af5.js"
+    "static/js/main.da171669.js"
   ]
 }
