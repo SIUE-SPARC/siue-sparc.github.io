@@ -20,13 +20,11 @@ const Footer = () => {
                 <div className="col-7 col-sm-7">
                     <h5>Contact Us</h5>
                     <address>
-		              {/**<i className="fa fa-phone fa-lg"></i>: +852 1234 5678<br />**/}
 		              <i className="fa fa-envelope fa-lg"></i>: <a className='footer-link' href="mailto:siuesparc@gmail.com">
                       siuesparc@gmail.com</a>
                     </address>
                 </div>
                 <div className="col-12 col-sm-3">
-                {/* <div className="col-12 col-sm-4 align-self-center"> */}
                     
                     <div className="text-center">
                         <h5>Follow Us</h5>
