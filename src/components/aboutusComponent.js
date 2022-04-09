@@ -34,14 +34,31 @@ const AboutUs = () => {
             images of the exec board members.
           */}
           <h3>Who We Are</h3>
-          <div style={{ width: '33%', display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 20}}>
-            <div style={{width: '33%'}}>
-              <img  src={pic1} alt="President" />
+          <div style={{display: 'flex', flexWrap: 'wrap', gap: '40px'}}>
+            <div>
+              <img src={pic1} alt="President" />
               <h4>President: Michael French</h4>
             </div>
-            <div style={{width: '33%'}}><img src={pic1} alt="Vice President" />
-              <h4>Vice President: Andrew Milloshewski</h4></div>
-            <div>Column 3</div>
+            <div>
+              <img src={pic1} alt="Vice President" />
+              <h4>Vice President: Andrew Milloshewski</h4>
+            </div>
+            <div>
+              <img src={pic1} alt="Director of Projects" />
+              <h4>Director of Projects: Scott Delozier</h4>
+            </div>
+            <div>
+              <img src={pic1} alt="Director of Community" />
+              <h4>Director of Community: Morgan Jackson</h4>
+            </div>
+            <div>
+              <img src={pic1} alt="Director of Leadership" />
+              <h4>Director of Leadership: Ryan Monohan</h4>
+            </div>
+            <div>
+              <img src={pic1} alt="Treasurer" />
+              <h4>Treasurer: Evan Rohlfs</h4>
+            </div>
           </div>
         </div>
       </div>
