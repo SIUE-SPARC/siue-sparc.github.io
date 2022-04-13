@@ -10,11 +10,14 @@
   min-height:400px;
 }
 
-.footer{
-  background-color: #0FFFEF;
+/* .footer{
+  background-color: #292929;
   margin:0px auto;
   padding: 20px 0px 20px 0px;
-}
+  color: #f5f5f5;
+  border-top: thin solid #0FFFEF;
+}*/
+
 .jumbotron {
   padding:70px 30px 70px 30px;
   margin:0px auto;
@@ -42,4 +45,13 @@ html{
 
 .bcrumb-dark {
   background-color: #000000;
+}
+
+::selection {
+  background: #0FFFEF; /* WebKit/Blink Browsers */
+  color: black;
+}
+::-moz-selection {
+  background: #0FFFEF; /* Gecko Browsers */
+  color: black;
 }

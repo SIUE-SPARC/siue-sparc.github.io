@@ -1,0 +1,21 @@
+.footer{
+    background-color: #292929;
+    /* background-color: #171717; */
+    /* background-color: #1e1d1d; */
+    margin:0px auto;
+    padding: 20px 0px 10px 0px;
+    color: #f5f5f5;
+    border-top: thin solid #0FFFEF;
+  }
+  
+  .footer-link:link {
+    color: #0FFFEF;
+  }
+  
+  .footer-link:visited {
+    color: #0FFFEF;
+  }
+
+  .footer-copyright {
+      padding-top: 5px;
+  }
