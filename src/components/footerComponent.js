@@ -33,7 +33,7 @@ const Footer = () => {
                         <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/siuesparc"><i className="fa fa-facebook"></i></a>
                         <a className="btn btn-social-icon btn-twitter" href="https://twitter.com/SiueSparc"><i className="fa fa-twitter"></i></a>
                         <a className="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCQRt1nBNU-BH2Qv5uIm6a6w"><i className="fa fa-youtube"></i></a>
-                        <a className="btn btn-social-icon" href="mailto:siuesparc@siue.edu"><i className="fa fa-envelope-o"></i></a>
+                        <a className="btn btn-social-icon" href="mailto:siuesparc@gmail.com"><i className="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
             </div>
