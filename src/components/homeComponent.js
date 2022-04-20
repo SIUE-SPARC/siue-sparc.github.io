@@ -90,7 +90,7 @@ const Home = () => {
       </Jumbotron>
 
       <div className="container info-margin">
-        <HomeInfo 
+        <HomeInfo
           Title="Web Development"
           ImageLink="https://wallpapercave.com/wp/wp4923992.png"
           Paragraph={
@@ -102,7 +102,7 @@ const Home = () => {
           PhotoAlign="right"
         />
 
-        <HomeInfo 
+        <HomeInfo
           Title="Game Development"
           ImageLink="https://i.ytimg.com/vi/bca8rqZsBnk/maxresdefault.jpg"
           Paragraph={
@@ -114,33 +114,34 @@ const Home = () => {
           PhotoAlign="left"
         />
 
-        <HomeInfo 
+        <HomeInfo
           Title="Mobile App Development"
           ImageLink="https://www.howtogeek.com/wp-content/uploads/2014/09/Android-robot-and-phone.jpg?width=1198&trim=1,1&bg-color=000&pad=1,1"
-          Paragraph= {
+          Paragraph={
             <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus ornare sapien, et convallis urna hendrerit ac. Phasellus scelerisque purus aliquet nunc gravida pulvinar. Duis pharetra volutpat metus, sit amet aliquet justo lacinia scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
-                <br></br><br></br><i>-Sam Msengi, Mobile App Development Branch Head</i>
-              </p>
+              "Mobile App Development is utilizing Android Studio and Java to develop relevant apps to fuel interest in Mobile App Development. The project in question: StudySurv. StudySurv is a work in progress app made for students everywhere to find the best locations for students to study. Peer tested and reviewed, this app will grant people the ability to find areas to relax and study, akin to yelp in a better sense, with the addition of people being able to add locations."
+              <br></br><br></br><i>-Sam Msengi, Mobile App Development Branch Head</i>
+            </p>
           }
           PhotoAlign="right"
         />
 
-        <HomeInfo 
+        <HomeInfo
           Title="Cybersecurity"
           ImageLink="https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/cybersecurity%20security%20infosec%20art%20getty.jpg"
           Paragraph={
             <p>
               SPARC's newest branch headed by Ethan Andrews. The Cybersecurity branch will take a look at how to protect sensitive information from cyberattacks.
-            </p>}
-            PhotoAlign="left"
+            </p>
+          }
+          PhotoAlign="left"
         />
 
         <HomeInfo
           Title="AMAs"
           ImageLink="https://i.ytimg.com/vi/m5g4exErHnI/maxresdefault.jpg"
           Paragraph={<p>
-            SPARC hosts weekly Ask Me Anything's with SIUE Computer Science staff and alumni. The goal of these sessions are to provide an opportunity for the guests to share real-world insight and stories of their careers, and undergraduates can ask questions that they may not have answers from school curriculum.
+            SPARC hosts weekly Ask Me Anything's with SIUE Computer Science staff and alumni. The goal of these sessions is to provide an opportunity for the guests to share real-world insight and stories of their careers, and undergraduates can ask questions that they may not have answers to from their school curriculum.
           </p>}
           PhotoAlign="right"
         />
