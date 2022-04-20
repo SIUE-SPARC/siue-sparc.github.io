@@ -1,56 +1,64 @@
 import React, { useState } from 'react';
 import { CarouselControl, Carousel, CarouselItem, CarouselIndicators, Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
 import pic2 from "../assets/images/workshop5.jpg";
 import pic1 from "../assets/images/workshop1.jpg";
+import "../Stylesheets/Home.css";
+import HomeInfo from './branchInfoComponent';
+import Helmet from 'react-helmet';
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = React.useState(0);
   const [animating, setAnimating] = React.useState(false);
 
   const items = [
-      {
-          key:0,
-          caption: 'Sample Caption One',src:pic1,
-          altText: 'Slide One'
-      },
-      {
-        key:1,
-          caption: 'Sample Caption Two',src:pic2,
-          altText: 'Slide Two'
-      }
+    {
+      key: 0,
+      caption: 'Sample Caption One', src: pic1,
+      altText: 'Slide One'
+    },
+    {
+      key: 1,
+      caption: 'Sample Caption Two', src: pic2,
+      altText: 'Slide Two'
+    }
   ];
   const itemLength = items.length - 1
 
   const previousButton = () => {
-      if (animating) return;
-      const nextIndex = activeIndex === 0 ?
-          itemLength : activeIndex - 1;
-      setActiveIndex(nextIndex);
+    if (animating) return;
+    const nextIndex = activeIndex === 0 ?
+      itemLength : activeIndex - 1;
+    setActiveIndex(nextIndex);
   }
 
   const nextButton = () => {
-      if (animating) return;
-      const nextIndex = activeIndex === itemLength ?
-          0 : activeIndex + 1;
-      setActiveIndex(nextIndex);
+    if (animating) return;
+    const nextIndex = activeIndex === itemLength ?
+      0 : activeIndex + 1;
+    setActiveIndex(nextIndex);
   }
 
   const carouselItemData = items.map((item) => {
-      return (
-          <CarouselItem
-              className="text-center"
-              key={item.key}
-              onExited={() => setAnimating(false)}
-              onExiting={() => setAnimating(true)}
-          >
-              <img width="400" height="300" src={item.src} alt={item.altText} />
-          </CarouselItem>
-      );
+    return (
+      <CarouselItem
+        className="text-center"
+        key={item.key}
+        onExited={() => setAnimating(false)}
+        onExiting={() => setAnimating(true)}
+      >
+        <img width="400" height="300" src={item.src} alt={item.altText} />
+      </CarouselItem>
+    );
   });
 
   return (
-    <div>
+    <div className=''>
+
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>SPARC</title>
+      </Helmet>
+
       <Jumbotron>
         <div className="container">
           <Carousel
@@ -80,23 +88,75 @@ const Home = () => {
           </Carousel>
         </div>
       </Jumbotron>
-      <div className="container">
-        <div className="row row-header">
-          <div className="col-12 col-sm-6">
-            <h1>SIUE Programming and Research Collaboration</h1>
+
+      <div className="container info-margin">
+        <HomeInfo 
+          Title="Web Development"
+          ImageLink="https://wallpapercave.com/wp/wp4923992.png"
+          Paragraph={
             <p>
-              SPARC is an organization open to any students interested in
-              computer science or modern day technologies. The purpose of the
-              organization is to create leaders who have the skills, ability,
-              and want to utilize technology to enact positive change within
-              society. We also strive to demonstrate the importance of
-              interdisciplinary collaboration between computer science and all
-              other disciplines, while also building a community for students at
-              SIUE. We provide a supportive organization where students can
-              develop and grow academically, professionally, and personally.
+              "The Web Development Branch is working together to make this informational website for SPARC. Our main focus for this iteration was front-end development. We are using agile principles, allowing new students to get agile experiemce. Future iterations will have a focus on back-end development. This site has been built with React.js, and is currently hosted by GitHub Pages."
+              <br></br><br></br><i>-Cody Schaefer, Web Development Branch Head</i>
             </p>
-          </div>
-        </div>
+          }
+          PhotoAlign="right"
+        />
+
+        <HomeInfo 
+          Title="Game Development"
+          ImageLink="https://i.ytimg.com/vi/bca8rqZsBnk/maxresdefault.jpg"
+          Paragraph={
+            <p>
+              "The Game Development Branch is planning on working on a SIUE themed 2D RPG. The rough idea of what we talked about was a 2D map of SIUE that the player could explore and run into different college/SIUE themed encounters or characters. We will be using the Unity Engine to develop this and we haven't determined any art platform at the moment."
+              <br></br><br></br><i>-Sam White, Game Development Branch Head</i>
+            </p>
+          }
+          PhotoAlign="left"
+        />
+
+        <HomeInfo 
+          Title="Mobile App Development"
+          ImageLink="https://www.howtogeek.com/wp-content/uploads/2014/09/Android-robot-and-phone.jpg?width=1198&trim=1,1&bg-color=000&pad=1,1"
+          Paragraph= {
+            <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus ornare sapien, et convallis urna hendrerit ac. Phasellus scelerisque purus aliquet nunc gravida pulvinar. Duis pharetra volutpat metus, sit amet aliquet justo lacinia scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
+                <br></br><br></br><i>-Sam Msengi, Mobile App Development Branch Head</i>
+              </p>
+          }
+          PhotoAlign="right"
+        />
+
+        <HomeInfo 
+          Title="Cybersecurity"
+          ImageLink="https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/cybersecurity%20security%20infosec%20art%20getty.jpg"
+          Paragraph={
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus ornare sapien, et convallis urna hendrerit ac. Phasellus scelerisque purus aliquet nunc gravida pulvinar. Duis pharetra volutpat metus, sit amet aliquet justo lacinia scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
+              <br></br><br></br><i>-Ethan Andrews, Cybersecurity Branch Head</i>
+            </p>}
+            PhotoAlign="left"
+        />
+
+        {/* <BranchInfo
+          Title="Test Branch 2"
+          ImageLink="https://i.ytimg.com/vi/m5g4exErHnI/maxresdefault.jpg"
+          Paragraph={<p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus ornare sapien, et convallis urna hendrerit ac. Phasellus scelerisque purus aliquet nunc gravida pulvinar. Duis pharetra volutpat metus, sit amet aliquet justo lacinia scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
+            <br></br><br></br><i>-Jeff Bezos, SMITE Branch Head</i>
+          </p>}
+          PhotoAlign="right"
+        />
+
+        <BranchInfo
+          Title="Test Branch"
+          ImageLink="https://cdn1.epicgames.com/offer/fn/PDP_2560x1440_2560x1440-bec2627607d1aeae77fc43d495900ddf"
+          Paragraph={<p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus ornare sapien, et convallis urna hendrerit ac. Phasellus scelerisque purus aliquet nunc gravida pulvinar. Duis pharetra volutpat metus, sit amet aliquet justo lacinia scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
+            <br></br><br></br><i>-Ethan Andrews, Cybersecurity Branch Head</i>
+          </p>}
+          PhotoAlign="left"
+        /> */}
+
       </div>
     </div>
   );
