@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Stylesheets/Home.css";
-import "../Stylesheets/BranchInfo.css";
+import "../Stylesheets/HomeInfo.css";
 
 const HomeInfo = (props) => {
     

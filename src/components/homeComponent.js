@@ -3,7 +3,7 @@ import { CarouselControl, Carousel, CarouselItem, CarouselIndicators, Navbar, Na
 import pic2 from "../assets/images/workshop5.jpg";
 import pic1 from "../assets/images/workshop1.jpg";
 import "../Stylesheets/Home.css";
-import HomeInfo from './branchInfoComponent';
+import HomeInfo from './homeInfoComponent';
 import Helmet from 'react-helmet';
 
 const Home = () => {
