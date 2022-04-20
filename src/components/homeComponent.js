@@ -131,23 +131,21 @@ const Home = () => {
           ImageLink="https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/cybersecurity%20security%20infosec%20art%20getty.jpg"
           Paragraph={
             <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus ornare sapien, et convallis urna hendrerit ac. Phasellus scelerisque purus aliquet nunc gravida pulvinar. Duis pharetra volutpat metus, sit amet aliquet justo lacinia scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
-              <br></br><br></br><i>-Ethan Andrews, Cybersecurity Branch Head</i>
+              SPARC's newest branch headed by Ethan Andrews. The Cybersecurity branch will take a look at how to protect sensitive information from cyberattacks.
             </p>}
             PhotoAlign="left"
         />
 
-        {/* <BranchInfo
-          Title="Test Branch 2"
+        <HomeInfo
+          Title="AMAs"
           ImageLink="https://i.ytimg.com/vi/m5g4exErHnI/maxresdefault.jpg"
           Paragraph={<p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus ornare sapien, et convallis urna hendrerit ac. Phasellus scelerisque purus aliquet nunc gravida pulvinar. Duis pharetra volutpat metus, sit amet aliquet justo lacinia scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
-            <br></br><br></br><i>-Jeff Bezos, SMITE Branch Head</i>
+            SPARC hosts weekly Ask Me Anything's with SIUE Computer Science staff and alumni. The goal of these sessions are to provide an opportunity for the guests to share real-world insight and stories of their careers, and undergraduates can ask questions that they may not have answers from school curriculum.
           </p>}
           PhotoAlign="right"
         />
 
-        <BranchInfo
+        {/* <BranchInfo
           Title="Test Branch"
           ImageLink="https://cdn1.epicgames.com/offer/fn/PDP_2560x1440_2560x1440-bec2627607d1aeae77fc43d495900ddf"
           Paragraph={<p>
