@@ -43,27 +43,27 @@ const AboutUs = () => {
           <h3>Who We Are</h3>
           <div className='who-we-are'>
             <figure>
-              <img src={pres} alt="President" />
+              <img src={pres} alt="President" className='exec-img'/>
               <figcaption>President: Michael French</figcaption>
             </figure>
             <figure>
-              <img src={vp} alt="Vice President" />
+              <img src={vp} alt="Vice President" className='exec-img'/>
               <figcaption>Vice President: Andrew Milloshewski</figcaption>
             </figure>
             <figure>
-              <img src={dp} alt="Director of Projects" />
+              <img src={dp} alt="Director of Projects" className='exec-img'/>
               <figcaption>Director of Projects: Scott Delozier</figcaption>
             </figure>
             <figure>
-              <img src={dc} alt="Director of Community" />
+              <img src={dc} alt="Director of Community" className='exec-img'/>
               <figcaption>Director of Community: Morgan Jackson</figcaption>
             </figure>
             <figure>
-              <img src={dl} alt="Director of Leadership" />
+              <img src={dl} alt="Director of Leadership" className='exec-img'/>
               <figcaption>Director of Leadership: Ryan Monohan</figcaption>
             </figure>
             <figure>
-              <img src={t} alt="Treasurer" />
+              <img src={t} alt="Treasurer" className='exec-img'/>
               <figcaption>Treasurer: Evan Rohlfs</figcaption>
             </figure>
           </div> 
