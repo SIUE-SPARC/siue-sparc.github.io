@@ -1,0 +1,10 @@
+.img-ib {
+    display: inline-block;
+}
+
+.branch-info-card {
+    /* border: thick solid rgb(247, 0, 255); */
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* background-color: yellow; */
+}

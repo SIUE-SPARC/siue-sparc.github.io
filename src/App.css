@@ -38,9 +38,14 @@
   color: #0FFFEF;
 }
 
-html{
+.nav-theme:hover {
+  color: #0ba49a;
+}
+
+html, body, #root {
   background-color: #000000;
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 .bcrumb-dark {
