@@ -90,6 +90,13 @@ const Home = () => {
       </Jumbotron>
 
       <div className="container info-margin">
+        
+        <div className='row'>
+          <div className='col text-center'>
+            <h1>SIUE Programming and Research Collaboration</h1>
+          </div>
+        </div>
+        
         <HomeInfo
           Title="Web Development"
           ImageLink="https://wallpapercave.com/wp/wp4923992.png"
@@ -131,7 +138,7 @@ const Home = () => {
           ImageLink="https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/cybersecurity%20security%20infosec%20art%20getty.jpg"
           Paragraph={
             <p>
-              SPARC's newest branch headed by Ethan Andrews. The Cybersecurity branch will take a look at how to protect sensitive information from cyberattacks.
+              SPARC's newest branch headed by Ethan Andrews. The Cybersecurity Branch will take a look at how to protect sensitive information from cyberattacks.
             </p>
           }
           PhotoAlign="left"
