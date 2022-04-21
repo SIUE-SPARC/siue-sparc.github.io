@@ -1,55 +1,14 @@
 import React, { useState } from 'react';
 import { CarouselControl, Carousel, CarouselItem, CarouselIndicators, Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input } from 'reactstrap';
-import pic2 from "../assets/images/workshop5.jpg";
-import pic1 from "../assets/images/workshop1.jpg";
+// import pic2 from "../assets/images/workshop5.jpg";
+// import pic1 from "../assets/images/workshop1.jpg";
 import "../Stylesheets/Home.css";
 import HomeInfo from './homeInfoComponent';
 import Helmet from 'react-helmet';
+import Gallery from './Gallery';
+import siuelogo from "../assets/images/siuelogo2.jpg";
 
 const Home = () => {
-  const [activeIndex, setActiveIndex] = React.useState(0);
-  const [animating, setAnimating] = React.useState(false);
-
-  const items = [
-    {
-      key: 0,
-      caption: 'Sample Caption One', src: pic1,
-      altText: 'Slide One'
-    },
-    {
-      key: 1,
-      caption: 'Sample Caption Two', src: pic2,
-      altText: 'Slide Two'
-    }
-  ];
-  const itemLength = items.length - 1
-
-  const previousButton = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === 0 ?
-      itemLength : activeIndex - 1;
-    setActiveIndex(nextIndex);
-  }
-
-  const nextButton = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === itemLength ?
-      0 : activeIndex + 1;
-    setActiveIndex(nextIndex);
-  }
-
-  const carouselItemData = items.map((item) => {
-    return (
-      <CarouselItem
-        className="text-center"
-        key={item.key}
-        onExited={() => setAnimating(false)}
-        onExiting={() => setAnimating(true)}
-      >
-        <img width="400" height="300" src={item.src} alt={item.altText} />
-      </CarouselItem>
-    );
-  });
 
   return (
     <div className=''>
@@ -59,35 +18,9 @@ const Home = () => {
         <title>SPARC</title>
       </Helmet>
 
-      <Jumbotron>
-        <div className="container">
-          <Carousel
-            previous={previousButton}
-            next={nextButton}
-            activeIndex={activeIndex}
-          >
-            <CarouselIndicators
-              items={items}
-              activeIndex={activeIndex}
-              onClickHandler={(newIndex) => {
-                if (animating) return;
-                setActiveIndex(newIndex);
-              }}
-            />
-            {carouselItemData}
-            <CarouselControl
-              directionText="Prev"
-              direction="prev"
-              onClickHandler={previousButton}
-            />
-            <CarouselControl
-              directionText="Next"
-              direction="next"
-              onClickHandler={nextButton}
-            />
-          </Carousel>
-        </div>
-      </Jumbotron>
+      <div>
+        <Gallery />
+      </div>
 
       <div className="container info-margin">
         
@@ -146,22 +79,12 @@ const Home = () => {
 
         <HomeInfo
           Title="AMAs"
-          ImageLink="https://i.ytimg.com/vi/m5g4exErHnI/maxresdefault.jpg"
+          ImageLink={siuelogo}
           Paragraph={<p>
             SPARC hosts weekly Ask Me Anything's with SIUE Computer Science staff and alumni. The goal of these sessions is to provide an opportunity for the guests to share real-world insight and stories of their careers, and undergraduates can ask questions that they may not have answers to from their school curriculum.
           </p>}
           PhotoAlign="right"
         />
-
-        {/* <BranchInfo
-          Title="Test Branch"
-          ImageLink="https://cdn1.epicgames.com/offer/fn/PDP_2560x1440_2560x1440-bec2627607d1aeae77fc43d495900ddf"
-          Paragraph={<p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus ornare sapien, et convallis urna hendrerit ac. Phasellus scelerisque purus aliquet nunc gravida pulvinar. Duis pharetra volutpat metus, sit amet aliquet justo lacinia scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
-            <br></br><br></br><i>-Ethan Andrews, Cybersecurity Branch Head</i>
-          </p>}
-          PhotoAlign="left"
-        /> */}
 
       </div>
     </div>

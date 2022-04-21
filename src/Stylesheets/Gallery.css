@@ -1,0 +1,11 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+.alice-carousel ul li img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .alice-carousel__dots-item {
+    color: yellow;
+} */
