@@ -1,0 +1,11 @@
+img {
+    object-fit: cover;
+    width:230px;
+    height:230px;
+  }
+
+.who-we-are{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}

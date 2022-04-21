@@ -1,7 +1,14 @@
 import React from 'react';
 import { Breadcrumb, BreadcrumbItem, Button, Label, Col, Row } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import pic1 from "../assets/images/profile.png";
+import pres from '../assets/images/ExecBoard/michael.png';
+import vp from '../assets/images/ExecBoard/andrew.png';
+import dp from '../assets/images/ExecBoard/scott.png';
+import dc from '../assets/images/ExecBoard/morgan.png';
+import dl from '../assets/images/ExecBoard/ryan.png';
+import t from '../assets/images/ExecBoard/evan.png';
+import '../Stylesheets/AboutUs.css';
+
 
 const AboutUs = () => {
   return (
@@ -34,32 +41,32 @@ const AboutUs = () => {
             images of the exec board members.
           */}
           <h3>Who We Are</h3>
-          <div style={{display: 'flex', flexWrap: 'wrap', gap: '40px'}}>
-            <div>
-              <img src={pic1} alt="President" />
-              <h4>President: Michael French</h4>
-            </div>
-            <div>
-              <img src={pic1} alt="Vice President" />
-              <h4>Vice President: Andrew Milloshewski</h4>
-            </div>
-            <div>
-              <img src={pic1} alt="Director of Projects" />
-              <h4>Director of Projects: Scott Delozier</h4>
-            </div>
-            <div>
-              <img src={pic1} alt="Director of Community" />
-              <h4>Director of Community: Morgan Jackson</h4>
-            </div>
-            <div>
-              <img src={pic1} alt="Director of Leadership" />
-              <h4>Director of Leadership: Ryan Monohan</h4>
-            </div>
-            <div>
-              <img src={pic1} alt="Treasurer" />
-              <h4>Treasurer: Evan Rohlfs</h4>
-            </div>
-          </div>
+          <div className='who-we-are'>
+            <figure>
+              <img src={pres} alt="President" />
+              <figcaption>President: Michael French</figcaption>
+            </figure>
+            <figure>
+              <img src={vp} alt="Vice President" />
+              <figcaption>Vice President: Andrew Milloshewski</figcaption>
+            </figure>
+            <figure>
+              <img src={dp} alt="Director of Projects" />
+              <figcaption>Director of Projects: Scott Delozier</figcaption>
+            </figure>
+            <figure>
+              <img src={dc} alt="Director of Community" />
+              <figcaption>Director of Community: Morgan Jackson</figcaption>
+            </figure>
+            <figure>
+              <img src={dl} alt="Director of Leadership" />
+              <figcaption>Director of Leadership: Ryan Monohan</figcaption>
+            </figure>
+            <figure>
+              <img src={t} alt="Treasurer" />
+              <figcaption>Treasurer: Evan Rohlfs</figcaption>
+            </figure>
+          </div> 
         </div>
       </div>
     </div>
