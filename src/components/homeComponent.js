@@ -35,7 +35,7 @@ const Home = () => {
           ImageLink="https://wallpapercave.com/wp/wp4923992.png"
           Paragraph={
             <p>
-              "The Web Development Branch is working together to make this informational website for SPARC. Our main focus for this iteration was front-end development. We are using agile principles, allowing new students to get agile experiemce. Future iterations will have a focus on back-end development. This site has been built with React.js, and is currently hosted by GitHub Pages."
+              "The Web Development Branch is working together to make this informational website for SPARC. Our main focus for this iteration was front-end development. We are using agile principles, allowing new students to get agile experience. Future iterations will focus on back-end development. This site has been built with React.js and is currently hosted by GitHub Pages."
               <br></br><br></br><i>-Cody Schaefer, Web Development Branch Head</i>
             </p>
           }
