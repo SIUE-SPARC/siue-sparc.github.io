@@ -1,11 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.39cbb189.css",
-    "main.js": "/static/js/main.dee7f7a5.js",
+    "main.css": "/static/css/main.8b4bec37.css",
+    "main.js": "/static/js/main.ea17a813.js",
     "static/js/787.38667e43.chunk.js": "/static/js/787.38667e43.chunk.js",
+    "static/media/IMG_2999.jpg": "/static/media/IMG_2999.aeb7196861d7bc16c8d3.jpg",
+    "static/media/IMG_3002.jpg": "/static/media/IMG_3002.903de11010a996891d4b.jpg",
     "static/media/workshop5.jpg": "/static/media/workshop5.5e3addca34eaf8d59eb9.jpg",
+    "static/media/IMG_3006.jpg": "/static/media/IMG_3006.7996a83fab29564a1d41.jpg",
     "static/media/workshop1.jpg": "/static/media/workshop1.b6b7ba8cc5125e3f0254.jpg",
+    "static/media/IMG_3010.JPG": "/static/media/IMG_3010.beec8cbc4fd7ea91e5b7.JPG",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/IMG_3994.jpg": "/static/media/IMG_3994.67f63a3135aad4976365.jpg",
+    "static/media/siuelogo2.jpg": "/static/media/siuelogo2.f0ef3606ba6281abe19d.jpg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/logo.png": "/static/media/logo.200b0dfffc933a71f00d.png",
@@ -13,12 +19,12 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/profile.png": "/static/media/profile.185f813e85e989ea5bd3.png",
     "index.html": "/index.html",
-    "main.39cbb189.css.map": "/static/css/main.39cbb189.css.map",
-    "main.dee7f7a5.js.map": "/static/js/main.dee7f7a5.js.map",
+    "main.8b4bec37.css.map": "/static/css/main.8b4bec37.css.map",
+    "main.ea17a813.js.map": "/static/js/main.ea17a813.js.map",
     "787.38667e43.chunk.js.map": "/static/js/787.38667e43.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39cbb189.css",
-    "static/js/main.dee7f7a5.js"
+    "static/css/main.8b4bec37.css",
+    "static/js/main.ea17a813.js"
   ]
 }
