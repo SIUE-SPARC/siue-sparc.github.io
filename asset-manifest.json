@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b4bec37.css",
-    "main.js": "/static/js/main.4c259d06.js",
+    "main.css": "/static/css/main.a029501a.css",
+    "main.js": "/static/js/main.0a45dd12.js",
     "static/js/787.38667e43.chunk.js": "/static/js/787.38667e43.chunk.js",
     "static/media/IMG_2999.jpg": "/static/media/IMG_2999.aeb7196861d7bc16c8d3.jpg",
     "static/media/IMG_3002.jpg": "/static/media/IMG_3002.903de11010a996891d4b.jpg",
     "static/media/workshop5.jpg": "/static/media/workshop5.5e3addca34eaf8d59eb9.jpg",
     "static/media/IMG_3006.jpg": "/static/media/IMG_3006.7996a83fab29564a1d41.jpg",
     "static/media/workshop1.jpg": "/static/media/workshop1.b6b7ba8cc5125e3f0254.jpg",
+    "static/media/andrew.png": "/static/media/andrew.9f93ad34d62aa82d0735.png",
+    "static/media/evan.png": "/static/media/evan.970b70208c6afa96b00c.png",
+    "static/media/scott.png": "/static/media/scott.2801e0084d7aec0c805e.png",
+    "static/media/ryan.png": "/static/media/ryan.536cfeedf213536836b5.png",
+    "static/media/morgan.png": "/static/media/morgan.0156012a150e792e8e6c.png",
     "static/media/IMG_3010.JPG": "/static/media/IMG_3010.beec8cbc4fd7ea91e5b7.JPG",
+    "static/media/michael.png": "/static/media/michael.c9c9884d4f441295407d.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/IMG_3994.jpg": "/static/media/IMG_3994.67f63a3135aad4976365.jpg",
     "static/media/siuelogo2.jpg": "/static/media/siuelogo2.f0ef3606ba6281abe19d.jpg",
@@ -17,14 +23,13 @@
     "static/media/logo.png": "/static/media/logo.200b0dfffc933a71f00d.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/profile.png": "/static/media/profile.185f813e85e989ea5bd3.png",
     "index.html": "/index.html",
-    "main.8b4bec37.css.map": "/static/css/main.8b4bec37.css.map",
-    "main.4c259d06.js.map": "/static/js/main.4c259d06.js.map",
+    "main.a029501a.css.map": "/static/css/main.a029501a.css.map",
+    "main.0a45dd12.js.map": "/static/js/main.0a45dd12.js.map",
     "787.38667e43.chunk.js.map": "/static/js/787.38667e43.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b4bec37.css",
-    "static/js/main.4c259d06.js"
+    "static/css/main.a029501a.css",
+    "static/js/main.0a45dd12.js"
   ]
 }
