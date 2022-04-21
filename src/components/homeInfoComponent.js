@@ -43,7 +43,7 @@ const HomeInfo = (props) => {
                             {props.Paragraph}
                         </p>
                     </div>
-                    <div className='col-12 col-md-7 col-lg-4'>
+                    <div className='col-12 col-md-7 col-lg-4 order-first order-md-last'>
                         <img className="img-fluid rounded img-ib" src={props.ImageLink} alt={props.Title}></img>
                     </div>
                 </div>
