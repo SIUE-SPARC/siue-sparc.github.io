@@ -59,7 +59,7 @@ const Home = () => {
           ImageLink="https://www.howtogeek.com/wp-content/uploads/2014/09/Android-robot-and-phone.jpg?width=1198&trim=1,1&bg-color=000&pad=1,1"
           Paragraph={
             <p>
-              "Mobile App Development is utilizing Android Studio and Java to develop relevant apps to fuel interest in Mobile App Development. The project in question: StudySurv. StudySurv is a work in progress app made for students everywhere to find the best locations for students to study. Peer tested and reviewed, this app will grant people the ability to find areas to relax and study, akin to yelp in a better sense, with the addition of people being able to add locations."
+              "Mobile App Development is utilizing Android Studio and Java to develop relevant apps to fuel interest in Mobile App Development. The project in question: StudySurv. StudySurv is a work in progress app made for students everywhere to find the best locations for students to study. Peer tested and reviewed, this app will grant people the ability to find areas to relax and study, akin to Yelp, with the addition of people being able to add locations."
               <br></br><br></br><i>-Sam Msengi, Mobile App Development Branch Head</i>
             </p>
           }
